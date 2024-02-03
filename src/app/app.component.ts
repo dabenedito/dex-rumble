@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'dex-rumble';
+
+  btnLogin(): void {
+    console.log('Logging');
+  }
 }
