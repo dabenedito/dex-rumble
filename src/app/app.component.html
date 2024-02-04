@@ -1,37 +1,4 @@
 <div class="container col-xxl-8">
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div class="col-10 col-sm-8 col-lg-6">
-      <img
-        src="https://classic.exame.com/wp-content/uploads/2023/12/BBB-24.png?w=647"
-        alt="BBB Logo"
-        class="d-bloc mx-lg-auto img-fluid"
-        width="700"
-        height="500"
-      >
-    </div>
-    <div class="col-lg-6">
-      <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Webbb3</h1>
-
-      <p class="lead">Votação on-chain do BBB.</p>
-      <p class="lead">Autentique-se com sua carteira e deixe seu voto par o próximo paredão.</p>
-
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <button class="app-btn btn btn-primary btn-lg" type="button" (click)="btnLogin()">
-          <img src="assets/metamask.svg" alt="Metamask Logo" width="60" class="me-3">
-          Conectar com a Metamask
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-bodyu-secondary">
-      &copy; 2024 Webbb3, Inc
-    </p>
-
-    <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-    </ul>
-  </footer>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
 </div>
